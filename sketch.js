@@ -17,9 +17,9 @@ function preload() {
     probabilityThreshold: 0.95
   };
   soundClassifier = ml5.soundClassifier('SpeechCommands18w', options);
-  uImg = loadImage('unicorn.png');
-  tImg = loadImage('train.png');
-  bImg = loadImage('background.jpg');
+  uImg = loadImage('dinsour1.png');
+  tImg = loadImage('cacuts1.png');
+  bImg = loadImage('background1.jpeg');
 }
 
 function mousePressed() {
