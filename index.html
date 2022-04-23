@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/addons/p5.sound.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
-    <script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
     <style>
-    html, body {
-        margin: 0;
-        padding: 0;
-      }
-      canvas {
-        display: block;
-      }
-      </style>
-  </head>
-  <body>
-    <script src="unicorn.js"></script>
-    <script src="train.js"></script>
-    <script src="sketch.js"></script>
-  </body>
+
+        form{
+
+            background-color: rgb(219, 207, 210);
+            width: 250px;
+            height: 150px;
+            margin: 100px 600px;
+            padding: 100px;
+            
+        }
+        input{
+            margin: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div></div>
+    <form action = "insert.php" method="post">
+        <p style="color:grey;">User Name</p> <input type="text" name="username" placeholder="nora136"><br>
+        <p style="color:grey;">Passwoed</p> <input type="text" name="password" placeholder="*********">
+        <input type="submit" name= "submit" value="submit">
+
+    </form>
+</body>
 </html>
