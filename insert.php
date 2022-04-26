@@ -5,7 +5,6 @@
 include 'connect.php';
 include 'index.php';
 
-
 $servername = "localhost";
 $username = "jeje5";
 $password = "jeje5";
@@ -28,13 +27,4 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-?>
-
-
-
-<?php
-
-print "Welcome Jojo";
-print "<br>";
-print "Welcome None";
 ?>
