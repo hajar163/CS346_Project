@@ -1,0 +1,156 @@
+
+
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
+    <meta charset="utf-8" />
+    <style>
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+ #score{
+  height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 20px;
+ }
+
+ .gameOver{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.712);
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: calc(45% - 100px);
+  top: calc(30% - 40px);
+  padding: 10px;
+  color: rgba(3, 31, 77, 0.897);
+  border-radius: 15px;
+  text-shadow: 10px;
+  width: 350px;
+  font-family: 'Arial Narrow';
+  
+}
+
+.div{
+
+  margin-left: 70%;
+  text-align: center;
+  
+}
+
+.div2{
+  margin-left: 22% ;
+  margin-top: 10%;
+  border: 3px solid rgba(3, 31, 77, 0.897);
+  width: 200px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.493)
+}
+.div2:hover{
+
+  
+  border: 5px solid rgba(255, 255, 255, 0.979);
+  
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  
+  
+  
+  
+}
+
+#read{
+  
+  background: rgba(250, 249, 249, 0.712);
+  text-align: center;
+  margin-left: 40%;
+  padding: 2%;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.p{
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+#Su{
+           background : rgba(3, 31, 77, 0.698);
+            border: 0;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid ;
+            padding: 6px;
+            color: white;
+            border-radius: 15px;
+         
+        }
+
+        #Su:hover{
+          background : white;
+          color: rgba(3, 31, 77, 0.698);
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="score" >Score<b>00</b> </div>
+
+     <div id="gameOver" class="gameOver"><p style="text-align: center;">Game Over!</p>
+      <form  method="get" action="http://192.168.64.2/CS346_Project-main0/updatescore.php">
+     <div calss="div">
+
+      <div class="div2"> 
+     <input id="read" type="text" name="reaad" value="  " READONLY/>
+      <p class="p">Your Score <img src="ball.png" width="25" height="28"> </p> </div> </div>
+        
+        <input id="Su" style="margin-left: 40%;" type="reset" name= "reset" value="Try again!" onclick="tryagain()">
+        <input id="Su" style="margin-left: 30%;" type="submit" name= "submit" value="Show heighest score" >
+        </form>
+    </div>
+
+    
+    
+  </body>
+  <script>
+    function tryagain(){
+      location.replace("http://127.0.0.1:5500/Game.html");
+    }
+
+
+    function moover(){
+
+
+
+  
+    }
+  </script>
+  <script src="player.js"></script>
+  <script src="ball.js"></script>
+  <script src="sketch.js"></script>
+</html>
+
+

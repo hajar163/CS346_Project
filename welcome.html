@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">>
+    <title>Welcome To ball Game</title>
+    <style>
+          body{
+
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-color: rgba(158, 152, 152, 0.411);
+                background: url(loginpage_bkckground.jpeg);
+                background-size:auto ;
+
+                }
+
+       .div{
+                width: 600px;
+                top:20%;
+                left: 28%;
+                border: 2px solid;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.616);
+                text-align: center;
+                border-radius: 20px;
+                position: absolute;
+            }
+            
+
+            h1{
+                        font-size: 28px;
+                        font-weight: 700;
+                        font-family: 'Arial Narrow';
+                        color: rgb(0, 2, 1);
+                    }
+            p{
+                        margin-top: 8%;
+                        font-size: 17px;
+                        font-weight: 700;
+                        font-family: 'Arial Narrow';
+                        text-align: left;
+                        color: rgba(255, 255, 255, 0.678);
+            }
+
+            #Su{
+
+            background: url(ball.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.616);
+            width: 150px;
+            border: 0;
+            margin: 20px auto;
+            text-align: center;
+            border: 3px solid rgba(255, 255, 255, 0.685);
+            padding: 18px 10px;
+            color: rgb(12, 0, 0);
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Arial Narrow';
+            border-radius: 20px;
+
+        }
+
+        #Su:hover{
+            background-color: rgb(251, 255, 5);
+            color: rgb(8, 5, 5);
+        }
+       
+
+        a{
+            
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Arial Narrow';
+            color: rgb(10, 0, 0);
+            
+            
+        }
+
+
+                
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <h1><img src="ball.png" width="25" height="26"> Welcome To Player-ball game<img src="ball.png" width="25" height="26"></h1>
+        <p>
+            Game Instructions:<br><br>
+            - When You press the Play button the game will start running.<br>
+            - You have to jump over the obstacles (ball) in your path by Pressing the space bar.<br>
+            - Once you crash into ball, the game is over and you have to restart (your score resets, too).<br>
+            - You can play again by refreshing page.<br>
+
+            <p style="color: rgb(231, 241, 137); text-align: center; font-size: 23px;">Enjoy!</p>
+            <button id="Su" onclick="h()"> <a href="http://127.0.0.1:5500/Game.html">P l a y</a></button>
+            
+        </p>
+        
+    </div>
+
+
+</body>
+<script>
+
+function h(){
+    location.replace("http://127.0.0.1:5500/Game.html")
+}
+</script>
+
+</html>
