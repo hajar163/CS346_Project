@@ -42,6 +42,11 @@ Supervised by: Amal Algefes
 <img width="466" alt="image" src="https://user-images.githubusercontent.com/92683935/167257410-eca7713b-43fa-4956-81a5-b7c7e2b976bc.png">
 
 **Look & Feel:**  
+We design the game as player and balls, balls as an obstacle that the player 
+must avoid touch it to win in the game.
+In CSS style, we design a font in size, type and color, In home page font type 
+'Arial Narrow' with size 20px and white color. We also use borders and 
+:hover properties.
 
 
 
