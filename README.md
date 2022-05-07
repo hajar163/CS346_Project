@@ -54,6 +54,7 @@ In CSS style, we design a font in size, type and color, In home page font type
 
 
 **Dynamic Components:**
+
 1- Game.html.
 2- home0.html.
 3- welcome.html.
