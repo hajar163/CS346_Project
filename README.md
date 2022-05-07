@@ -30,7 +30,8 @@ Supervised by: Amal Algefes
 
 **Project description:**
 
-
+In this project we built a player-ball game which allows the users to register, login, and playing the game, the game has two sides, a client side and a server side, the client side contains HTML, CSS and JavaScript used to design the user interface, the JavaScript was used also in the client side to handle the game logic and calculate the score, the server side we used php to handle registration, login in, and displaying the heightest score in game , the database shows the user name, password, their score , and rank of users.
+Our goal in this project is to apply real world web development and use the most commonly technology and building web application functionally work.
 
 **Game description:**
 
