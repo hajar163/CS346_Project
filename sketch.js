@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1535, 752);
+  createCanvas(1535, 822);
   player = new Player();
   soundClassifier.classify(gotCommand);
   
