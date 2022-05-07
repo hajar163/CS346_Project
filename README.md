@@ -35,6 +35,8 @@ Our goal in this project is to apply real world web development and use the most
 
 **Game description:**
 
+Player-ball game, in this game you will play as a player and there is a ball as an obstacle, you must jump from it, the score calculated while game start running, until you hit the ball. then the game stop running. The winner is that who has a highest score.
+
 
 
 
