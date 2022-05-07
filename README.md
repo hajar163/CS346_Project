@@ -46,6 +46,9 @@ Supervised by: Amal Algefes
 
 
 **Dynamic Components:**
+1- Game.html.
+2- home0.html.
+3- welcome.html.
 
 **Business Logic:**
 
